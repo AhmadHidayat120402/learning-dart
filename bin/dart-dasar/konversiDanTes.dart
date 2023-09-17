@@ -20,4 +20,20 @@ void main(List<String> args) {
   print(typedata);
 
   // runtimetype untuk mengecek tipe data dari variabel
+
+// test
+
+  String greeting =
+      '"it\'s nama kamu siapa "'; // pakai / (backlash) atau dikenal dengan nama escape string
+  print(greeting);
+  print("Windows path: C:\\Program Files\\Dart");
+
+  var namaku = "dayat";
+  print("helo $namaku");
+  print("1 + 1 = ${1 + 1}");
+
+  print(r'harga nasi goreng $400'); // r artinya menghiraukan interpolation
+
+  // dart unicode dikenal dengan nama runes jadi nanti outputnya seperti emot
+  print("hi \u2665");
 }
